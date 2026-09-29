@@ -1,6 +1,5 @@
 # small radius
 execute if items entity @s weapon.mainhand minecraft:stone_hoe run function betterfarmingwithhoes:harvest/mainhand/small_radius
-execute if items entity @s weapon.mainhand minecraft:copper_hoe run function betterfarmingwithhoes:harvest/mainhand/small_radius
 execute if items entity @s weapon.mainhand minecraft:golden_hoe run function betterfarmingwithhoes:harvest/mainhand/small_radius
 
 # medium radius
