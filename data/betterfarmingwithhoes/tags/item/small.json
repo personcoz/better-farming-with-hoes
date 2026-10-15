@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:stone_hoe",
+        "minecraft:golden_hoe",
+        "minecraft:copper_hoe"
+    ]
+}
