@@ -6,3 +6,5 @@ scoreboard objectives add betterfarmingwithhoes-carrots-mined minecraft.mined:mi
 scoreboard objectives add betterfarmingwithhoes-beetroots-mined minecraft.mined:minecraft.beetroots
 scoreboard objectives add betterfarmingwithhoes-nether_wart-mined minecraft.mined:minecraft.nether_wart
 
+
+execute as @e[type=marker,tag=betterfarmingwithhoes-mature] run kill @s
