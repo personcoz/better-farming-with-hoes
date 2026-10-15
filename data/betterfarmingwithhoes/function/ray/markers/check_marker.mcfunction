@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] unless block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] run kill @s

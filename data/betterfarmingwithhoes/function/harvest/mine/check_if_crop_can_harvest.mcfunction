@@ -1,2 +1,4 @@
-execute if block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] run function betterfarmingwithhoes:harvest/mine/break_crop
-execute if block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] run function betterfarmingwithhoes:harvest/mine/break_crop
+# execute if block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] run function betterfarmingwithhoes:harvest/mine/break_crop
+# execute if block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] run function betterfarmingwithhoes:harvest/mine/break_crop
+
+execute if block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] if block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] run function betterfarmingwithhoes:harvest/mine/break_crop

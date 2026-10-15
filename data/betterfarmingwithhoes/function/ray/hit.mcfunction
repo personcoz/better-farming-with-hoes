@@ -1,5 +1,6 @@
-execute unless block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] run tag @s remove betterfarmingwithhoes-targeting_mature_crop
-execute unless block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] run tag @s remove betterfarmingwithhoes-targeting_mature_crop
+scoreboard players set @s betterfarmingwithhoes-raycast-complete 1
 
-execute if block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] run tag @s add betterfarmingwithhoes-targeting_mature_crop
-execute if block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] run tag @s add betterfarmingwithhoes-targeting_mature_crop
+execute positioned ~ ~ ~ if block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] run function betterfarmingwithhoes:ray/markers/create
+execute positioned ~ ~ ~ if block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] run function betterfarmingwithhoes:ray/markers/create
+
+# execute positioned ~ ~ ~ if block ~ ~ ~ #betterfarmingwithhoes:age_3_crops[age=3] if block ~ ~ ~ #betterfarmingwithhoes:age_7_crops[age=7] run function betterfarmingwithhoes:ray/markers/create
